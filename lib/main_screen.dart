@@ -17,8 +17,10 @@ class _MainScreenState extends State<MainScreen> {
       backgroundColor: Colors.grey,
       appBar: AppBar(
         backgroundColor: Colors.red,
-        title: const Text(
-          'Main Screen',
+        title: const Center(
+          child: Text(
+            'Main Screen',
+          ),
         ),
       ),
       body: Center(
