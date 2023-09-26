@@ -13,7 +13,14 @@ class SettingScreen extends StatelessWidget {
         title: const Text('Setting Screen'),
       ),
       body: const Center(
-        child: Text('Setting Screen'),
+        child: Text(
+          'Setting Screen',
+          style: TextStyle(
+            fontWeight: FontWeight.w900,
+            fontSize: 20.0,
+            color: Colors.black,
+          ),
+        ),
       ),
     );
   }
